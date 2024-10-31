@@ -38,7 +38,7 @@ function library() {
         }
         } else if (response.toLowerCase() = "left") {
             alert("You enter 'Jamieson's room', and find the spooky 'Mr. Jamieson' (WoOoOoOoO)");
-            alert("That's all, thanks for playing. (made in ~65 minutes)")
+            alert("That's all, thanks for playing. (made in ~60 minutes)")
         }
 }
 
