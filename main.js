@@ -2,7 +2,7 @@ let score = 0;
 let name = prompt("What's your name?");
 
 function startGame() {
-    alert("Welcome, " + name + " to the Haunted All Saints High School!");
+    alert("Welcome  to the Haunted All Saints High School, " + name + "!");
     alert("From a 'trusted' source, you've learned that if you find all of the spooky items hidden in the school, then a spooky event will occur!");
     let location = prompt("Where will you go? If you want to visit the library, type 'library'. You can also check the 'basement', 'autoshop', or 'leave'.");
     if (location.toLowerCase() == "library") {
@@ -109,7 +109,7 @@ function autoshop() {
 function leaving(){
     if (score < 3){
         outNotEnough();
-    } else if (score > 3) {
+    } else if (score >= 3) {
         outWin();
     }
 }
